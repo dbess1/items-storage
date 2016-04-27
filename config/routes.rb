@@ -1,9 +1,19 @@
 Rails.application.routes.draw do
+
+  # The Routing has two namespaces; API and V1; therefore, we'll use the namespace method here. 
+  namespace :api do
+    namespace :v1 do
+      resources :items, only: [:index, :create, :destroy, :update]
+      end
+    end
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root to:'site#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

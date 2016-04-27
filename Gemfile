@@ -29,6 +29,9 @@ gem 'responders'
 # Ruby Documentation
 gem 'rdoc', '~> 4.2', '>= 4.2.2' 
 
+# React
+gem 'react-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
