@@ -24,7 +24,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # This will let you apply a respond_to rule to all the actions in our controllers, making the code DRY-er.
-gem 'responders' 
+gem 'responders'
+
+# Ruby Documentation
+gem 'rdoc', '~> 4.2', '>= 4.2.2' 
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
