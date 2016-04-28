@@ -2,7 +2,7 @@
   <Header /> and <Body />. This will be the Header, hence the file name.
 */
 
-var Header = React.createCLass({
+var Header = React.createClass({
     render() {
         return ( <div>
             <h1> Hello World, Testing React! </h1>
